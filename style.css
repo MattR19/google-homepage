@@ -2,6 +2,7 @@
 
 .nav{list-style: none;}
 .nav li {display: inline; 	margin-left: 15px;}
+.nav li:hover {text-decoration: underline;}
 a:link, a:visited {
 	color: rgb(100,100,100,.87);
 	text-decoration: none;
@@ -18,7 +19,6 @@ a:link, a:visited {
 	margin-top:40px;
 	margin-right:3%;
 }
-
 
 .main > img {
 	z-index: 1;
@@ -44,7 +44,7 @@ form input[type=text]{
 }
 
 form input[type=submit]{
-	 background-color: #EEE;
+	background-color: #EEE;
     border: none;
     color: rgb(100,100,100,.87);
     padding: 10px 15px;
@@ -54,13 +54,19 @@ form input[type=submit]{
     font-size: 16px;
     margin: 30px 2px;
     cursor: pointer;
+    font-weight: 500;
+}
+
+form input[type=submit]:hover{
+	border: 1px solid #BBB;
+	color: black;
 }
 
 footer{
 	height:80px;
 	width: 100%;
 	background-color: #EEE;
-	color: rgb(75,75,75,.87);
+	color: rgba(75,75,75,.87);
 	font-family: arial, sans-serif;
 	margin-bottom: 0px;
 	position: fixed;
@@ -86,9 +92,5 @@ footer{
 	margin-left: 15px;
 }
 
-.foot-nav li:hover {
-	text-decoration: underline;
-
-
-}
+.foot-nav li:hover {text-decoration: underline;}
 
